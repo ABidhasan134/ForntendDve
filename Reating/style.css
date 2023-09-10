@@ -1,0 +1,80 @@
+:root
+{
+    --Blue: hsl(216, 12%, 8%);
+    --Dar-Blue: hsl(213, 19%, 18%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --my: hsl(214, 12%, 22%);
+}
+body
+{
+    background: var(--Blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+.main
+{
+    background: var(--Dar-Blue);
+    height: 120%;
+    width: 25%;
+    /* display: flex;
+    justify-content: center; */
+    padding: 25px;
+    position: relative;
+    margin-top: 8%;
+    border-radius: 15px;
+}
+.main img
+{
+    background-color: var(--my);
+    padding: 10px;
+    border-radius: 50%;
+}
+.main p
+{
+    color: var(--Light-Grey);
+}
+.btn
+{
+    background-color: var(--my);
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    /* padding-left: 15px; */
+    margin:10px;
+    color: var(--Light-Grey);
+}
+.btn:hover
+{
+    /* padding: 40px; */
+    background:  rgb(221, 122, 0);
+    color: white;
+    cursor: pointer;
+}
+.submit
+{
+    /* background-color: transparent; */
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background: rgb(221, 122, 0);
+    /* letter-spacing: 2px; */
+}
+.submit:hover
+{
+    cursor: pointer;
+    background: white;
+    letter-spacing: 2px;
+}
+.btn-active
+{
+    background: whitesmoke;
+}
