@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='main'>
+        <div class='Icontener'>
+            <div typeof='date'>
+                <p id="no1" class='pa'>DAY</p>
+                <input id='day'  placeholder='DD' class='input'/>
+                
+                <p class='hiden'>This filde is requer</p>
+            </div>
+            <div>
+                <p class='pa'>MONTH</p>
+                <input id='month' placeholder='MM' class='input'/>
+                <p class='hiden'>This filde is requer</p>
+            </div>
+            <div>
+                <p class='pa'>YEAR</p>
+                <input id='year' placeholder='YY' class='input'/>
+                <p class='hiden'>This filde is requer</p>
+            </div>
+        </div>
+        <div class='linebtn'>
+            <div class='line'></div>
+        <button class='btn' type='submit'><i class="bi bi-arrow-down"></i></button>
+        </div>
+        <div>
+            <div class='contentValue'>
+                <span class='value1'>- -</span>
+                <h1>year</h1>
+            </div>
+            <div class='contentValue'>
+                <span class='value2'>- -</span>
+                <h1>month</h1>
+            </div>
+            <div class='contentValue'>
+                <span class='value3'>- -</span>
+                <h1>days</h1>
+            </div>
+            <Date />
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
