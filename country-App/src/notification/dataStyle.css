@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    /* background: rgb(106, 106, 106); */
+    display: grid;
+    gap:2rem;
+    background: rgb(48, 62, 88);
+    margin: 20px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: aliceblue;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+/* @media (min-width: 991) {
+    .conten{
+        grid-template-columns: auto auto;
+    }
+} */
+@media (min-width: 992px) {
+    .conten{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 25px;
+
+    }
+}
+.btn{
+    background: orange;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background: red;
+}
