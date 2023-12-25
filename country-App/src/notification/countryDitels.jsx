@@ -4,7 +4,7 @@ import Data from './data';
 import './dataStyle.css'
 
 const CountryDitels = (props) => {
-        
+
   return (
     <section className='conten'>
         {props.flag.map((country)=>{

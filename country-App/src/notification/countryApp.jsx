@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import CountryDitels from './countryDitels';
 import Search from './search';
 
-const url='https://restcountries.com';
+const url='https://restcountries.co';
 
 const CountryApp = () => {
 
