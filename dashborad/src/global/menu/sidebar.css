@@ -1,0 +1,30 @@
+@import '../../global/css/style.css';
+.titel{
+    color: var(--main-color);
+    font-size: 20px;
+    position: relative;
+    gap: 10px;
+    
+}
+.Menuicons
+{
+    font-size: 25px;
+    color: var(--main-color);
+    padding: 15px;
+    
+}
+.MenuLink
+{
+    color: var(--main-color);
+    font-style: none;
+    font-size: 23px;
+    position: relative;
+    
+
+}
+.MenuLink:hover{
+    cursor: pointer;
+    background: var(--soft-bg);
+    border-radius: 5px;
+    text-underline-offset: none;
+}

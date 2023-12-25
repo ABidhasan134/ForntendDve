@@ -1,0 +1,13 @@
+@import url("../../global/css/style.css");
+.userTitel{
+    display: flex;
+    background: var(--soft-bg);
+    padding: 20px;
+    margin: 10px;
+}
+.btn
+{
+    padding-left: 10px;
+    margin-left: 20px;
+    
+}

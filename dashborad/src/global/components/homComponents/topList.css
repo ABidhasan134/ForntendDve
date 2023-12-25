@@ -1,0 +1,21 @@
+.userSide
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.userSide img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.nameSide
+{
+  padding: 10px;
+}
+.main
+{
+    overflow-y: auto;
+    -webkit-overflow-scrolling: none;
+}

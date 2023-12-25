@@ -1,0 +1,73 @@
+*{
+    margin-top: 15px;
+}
+.navConten
+{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #222b3c;;
+    box-shadow:  2px 0px 3px white;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    
+}
+
+.logoConten
+{
+    display: flex;
+}
+.brandName{
+    display: grid;
+    align-items: center;
+    padding-left: 20px;
+}
+.icons
+{
+    display: flex;
+}
+.icon{
+    font-size: 25px;
+    /* padding: 10px; */
+    margin: 15px;
+}
+.icon:hover
+{
+    cursor: pointer;
+    color: rgb(21, 174, 212);
+}
+.user
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8px;
+}
+.userImg{
+    height: 40px;
+    width: 40px;
+}
+.user span{
+    
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    margin-top: -15px;
+    padding: 5px;
+    
+}
+
+.notification{
+    position: relative;
+    background: red;
+    padding: 3px;
+    left: -23px;
+    top:-40px;
+    border-radius: 50%;
+
+}
+
+

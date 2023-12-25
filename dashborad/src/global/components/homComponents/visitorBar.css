@@ -1,0 +1,8 @@
+.visitBar{
+    display: grid;
+    position: relative;
+}
+.barchart{
+    width: 150%;
+    height: 500%;
+}

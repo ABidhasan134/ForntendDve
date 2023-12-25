@@ -1,0 +1,18 @@
+@import '../../css/style.css';
+.maintable
+{
+    width: 99%;
+    height: 100%;
+    border: none;
+}
+.btn{
+    justify-content: center;
+    background: transparent;
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--soft-bg);
+    border-radius: 20%;
+    font-size: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(118, 52, 65));
+}

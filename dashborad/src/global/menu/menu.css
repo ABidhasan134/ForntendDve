@@ -1,0 +1,28 @@
+
+.sidebar
+{
+    display: grid;
+}
+.mainContener{
+    display: grid;
+    position: relative;
+    left: 30px;
+    padding: 12px;
+   
+}
+.item{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    overflow: hidden;
+    width: 206px;
+}
+
+.item:hover
+{
+    background: var(--soft-bg);
+}
+.manuList{
+    padding: 10px;
+}
