@@ -4,6 +4,7 @@ const submit =document.querySelector(".submit");
 const bottun=document.querySelector(".btns").values;
 
 var selectedRating=0;
+let text = "hello there";
 
 rating.forEach((btn)=>{
     btn.addEventListener("click",()=>{
