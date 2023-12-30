@@ -27,7 +27,7 @@ const columns = [
     {
       field: 'avater',
       headerName: "Avater",
-      width
+      width:"150px",
 
     }
   ];
